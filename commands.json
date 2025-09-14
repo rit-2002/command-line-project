@@ -1,0 +1,113 @@
+{
+    "list": {
+        "description": "List all files in current directory or given directory",
+        "usage": "list [directory]",
+        "examples": [
+            "list",
+            "list /path/to/dir"
+        ]
+    },
+    "dirs": {
+        "description": "List directories in current folder or given path", 
+        "usage": "dirs [directory]",
+        "examples": [
+            "dirs",
+            "dirs /path/to/dir"
+        ]
+    },
+    "date": {
+        "description": "Show current date",
+        "usage": "date",
+        "examples": [
+            "date"
+        ]
+    },
+    "time": {
+        "description": "Show current time with optional flags",
+        "usage": "time [-hours] [-mins] [-secs]", 
+        "examples": [
+            "time",
+            "time -hours",
+            "time -hours -mins",
+            "time -hours -mins -secs"
+        ]
+    },
+    "cat": {
+        "description": "Display file contents",
+        "usage": "cat <filename>",
+        "examples": [
+            "cat myfile.txt"
+        ]
+    },
+    "head": {
+        "description": "Show first N lines of file",
+        "usage": "head -N <filename>",
+        "examples": [
+            "head -5 myfile.txt"
+        ]
+    },
+    "tail": {
+        "description": "Show last N lines of file",
+        "usage": "tail -N <filename>",
+        "examples": [
+            "tail -5 myfile.txt"
+        ]
+    },
+    "copy_file": {
+        "description": "Copy file content to new file",
+        "usage": "copy_file <source> <destination>",
+        "examples": [
+            "copy_file source.txt dest.txt"
+        ]
+    },
+    "remove_file": {
+        "description": "Remove a file",
+        "usage": "remove_file <filename>",
+        "examples": [
+            "remove_file myfile.txt"
+        ]
+    },
+    "empty_file": {
+        "description": "Empty a file's content",
+        "usage": "empty_file <filename>",
+        "examples": [
+            "empty_file myfile.txt"
+        ]
+    },
+    "ipconfig": {
+        "description": "Show system IP address",
+        "usage": "ipconfig",
+        "examples": [
+            "ipconfig"
+        ]
+    },
+    "pwd": {
+        "description": "Show current working directory",
+        "usage": "pwd",
+        "examples": [
+            "pwd"
+        ]
+    },
+    "clear": {
+        "description": "Clear terminal screen",
+        "usage": "clear",
+        "examples": [
+            "clear"
+        ]
+    },
+    "exit": {
+        "description": "Exit the shell",
+        "usage": "exit",
+        "examples": [
+            "exit"
+        ]
+    },
+    "help": {
+        "description": "Show help information for commands",
+        "usage": "help [command]",
+        "examples": [
+            "help",
+            "help list"
+        ]
+    }
+}
